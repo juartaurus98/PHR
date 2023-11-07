@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 import { Text, StyleSheet, View, Pressable } from "react-native";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation } from "react-navigation/native";
 import { Color, Border, FontSize, FontFamily } from "../GlobalStyles";
 
 const LoginFrame = memo(() => {
